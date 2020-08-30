@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background:linear-gradient(#00008073,#000080b3), url(../image/sunrise-1014712_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+nav{
+    height: 10rem;
+    background: #000080d4;
+    border-bottom: .1rem solid #fff;
+}
+.logo img{
+    width: 15rem;
+    height: auto;
+    margin: 1.5rem;
+    padding: 1.5rem;
+    float: left;
+}
+.navigation-menu{
+    float: right;
+    text-align: center;
+}
+.menu ul li{
+    width: 7rem;
+    display: inline;
+    margin: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+.menu ul li a{
+    font-size: 1.8rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu{
+    padding-top: 1.8rem;
+    margin: 1.8rem;
+}
+.active,.menu ul li:hover{
+    background: #4f4ca8b3;
+    padding-top: 2rem;
+    border-radius: .5rem;
+}
+.menu .fas{
+    margin-right: .8rem;
+}
+.sub-menu1{
+    display: none;
+}
+.navigation-menu ul li:hover .sub-menu1{
+    display: block;
+    position: absolute;
+    margin-top: 1.4rem;
+    margin-left: 52rem;
+    background: #4f4ca8b3;
+}
+.navigation-menu ul li:hover .sub-menu1 ul li{
+    display: block;
+    margin: 5rem;
+    padding: 0;
+    width: 12rem;
+    border-bottom: .1rem solid #fff;
+    border-radius: 0;
+    padding-bottom: .5rem;
+}
+.navigation-menu ul li:hover .sub-menu1 ul li:last-child{
+    border-bottom: none;
+}
+.navigation-menu ul li:hover .sub-menu1 ul li a:hover{
+    color: #000080d4;
+}
+.sub-menu2{
+    display: none;
+}
+.navigation-menu ul li:hover .sub-menu2{
+    display: block;
+    position: absolute;
+    margin-top: 1.4rem;
+    margin-left: 15rem;
+    background: #4f4ca8b3;
+}
+.navigation-menu ul li:hover .sub-menu2 ul li{
+    display: block;
+    margin: 5rem;
+    padding: 0;
+    width: 12rem;
+    border-bottom: .1rem solid #fff;
+    border-radius: 0;
+    padding-bottom: .5rem;
+}
+.navigation-menu ul li:hover .sub-menu2 ul li:last-child{
+    border-bottom: none;
+}
+.navigation-menu ul li:hover .sub-menu2 ul li a:hover{
+    color: #000080d4;
+}
+.mobile-menu{
+    display: none;
+}
+.hero-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.hero-text-box h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+}
+.hero-text-box a{
+    position: absolute;
+    font-size: 2.2rem;
+    padding: 1.5rem 6rem;
+    border-bottom: .3rem solid #3733a4;
+    background: #4a52d2;
+    margin-top: 4.5rem;
+    margin-left: 30%;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+.close-btn{
+    display: none;
+}
+/*.sidenav{
+    display: none;
+}*/
